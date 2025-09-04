@@ -1,0 +1,49 @@
+{
+  "name": "paletto",
+  "displayName": "Paletto",
+  "description": "A curated collection of beautiful color themes for Visual Studio Code.",
+  "version": "0.0.1",
+  "publisher": "garpra",
+  "author": {
+    "name": "garpra"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "tokyo night",
+    "gruvbox"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garpra/paletto"
+  },
+  "bugs": {
+    "url": "https://github.com/garpra/paletto/issues"
+  },
+  "homepage": "https://github.com/garpra/paletto#readme",
+  "galleryBanner": {
+    "color": "#1a1b26",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Paletto — Tokyo Night Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/TokyoNightDark-color-theme.json"
+      },
+      {
+        "label": "Paletto — Gruvbox Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GruvboxDark-color-theme.json"
+      }
+    ]
+  }
+}
