@@ -1,3 +1,6 @@
+# VS Code Extension
+*.vsix
+
 # Dependencies
 node_modules/
 
